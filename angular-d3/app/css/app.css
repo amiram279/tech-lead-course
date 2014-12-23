@@ -1,0 +1,117 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+/* D3 styles */
+/*.node circle {*/
+	/*cursor: pointer;*/
+	/*stroke: #3182bd;*/
+	/*stroke-width: 1.5px;*/
+/*}*/
+
+/*.node text {*/
+	/*font: 10px sans-serif;*/
+	/*pointer-events: none;*/
+	/*text-anchor: middle;*/
+/*}*/
+
+/*line.link {*/
+	/*fill: none;*/
+	/*stroke: #9ecae1;*/
+	/*stroke-width: 1.5px;*/
+/*}*/
+
+/* D3 chart example */
+/*body {*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*margin: 0;*/
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+/*}*/
+
+/*.flowtree {*/
+	/*margin: 10px;*/
+	/*padding: 10px;*/
+	/*height: 900px;*/
+	/*width: 900px;*/
+	/*overflow-x: hidden;*/
+	/*overflow-y: scroll;*/
+	/*box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.25), 0 0 6px rgba(0, 0, 0, 0.1);*/
+	/*border: 1px solid #AAAAAA;*/
+/*}*/
+
+/*.chartGroup .background {*/
+	/*fill: #FFFFFF;*/
+	/*stroke-width: 0.5;*/
+/*}*/
+
+/*.node rect {*/
+	/*cursor: pointer;*/
+	/*fill: #FFFFFF;*/
+	/*fill-opacity: 0.5;*/
+	/*stroke: #333333;*/
+	/*stroke-width: 1px;*/
+/*}*/
+
+/*.node text {*/
+	/*font: 10px sans-serif;*/
+	/*pointer-events: none;*/
+/*}*/
+
+/*.ui-resizable-e {*/
+	/*width: 8px !important;*/
+	/*right: 2px !important;*/
+/*}*/
+
+/*.ui-resizable-e:hover {*/
+	/*border: 1px dashed #333333;*/
+	/*background-color: #DDDDDD;*/
+/*}*/
+
+/* D# collapsible tree example */
+.node {
+	cursor: pointer;
+}
+
+.node circle {
+	fill: #fff;
+	stroke: steelblue;
+	stroke-width: 1.5px;
+}
+
+.node text {
+	font: 10px sans-serif;
+}
+
+.link {
+	fill: none;
+	stroke: #ccc;
+	stroke-width: 1.5px;
+}
